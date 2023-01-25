@@ -1,0 +1,12 @@
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\Inventura.accdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\Inventura.mdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe.config
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.pdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.FormInventura.resources
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.Properties.Resources.resources
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\Cistoca Inventura.csproj.GenerateResource.cache
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\Cistoca Inventura.csproj.CoreCompileInputs.cache
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.exe
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.pdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\Cistoca Inventura.csprojAssemblyReference.cache

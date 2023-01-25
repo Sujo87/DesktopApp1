@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A68EFE9-C598-4B38-AAAC-54B3E8161411}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DesktopApp1</RootNamespace>
+    <AssemblyName>DesktopApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Untitled-2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventuraDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventuraDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InventuraDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventuraDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="InventuraDataSet.xsc">
+      <DependentUpon>InventuraDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InventuraDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InventuraDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InventuraDataSet.xss">
+      <DependentUpon>InventuraDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InventuraDataSet1.xsc">
+      <DependentUpon>InventuraDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="InventuraDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InventuraDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InventuraDataSet1.xss">
+      <DependentUpon>InventuraDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Inventura.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inventura.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Properties\test.png" />
+    <Content Include="Resources\images\lHP EliteBook 2530p.JPG" />
+    <Content Include="Resources\images\lHP EliteBook 2540p.JPG" />
+    <Content Include="Resources\images\lHP EliteBook 6930p.JPG" />
+    <Content Include="Resources\images\lHP EliteBook 820.JPG" />
+    <Content Include="Resources\images\lHP EliteBook 830G5.JPG" />
+    <Content Include="Resources\images\lHP EliteBook 8440p.JPG" />
+    <Content Include="Resources\images\lHP EliteBook 8460p.JPG" />
+    <Content Include="Resources\images\lHP ProBook 450.JPG" />
+    <Content Include="Resources\images\lHP ProBook 450G5.JPG" />
+    <Content Include="Resources\images\lHP ProBook 470.JPG" />
+    <Content Include="Resources\images\lHP ProBook 470G5.JPG" />
+    <Content Include="Resources\images\lHP ProBook 820.JPG" />
+    <Content Include="Resources\images\mHP 2202X.JPG" />
+    <Content Include="Resources\images\mHP Elite Display E231.JPG" />
+    <Content Include="Resources\images\mHP LE2202x.JPG" />
+    <Content Include="Resources\images\mHP LP2475w.JPG" />
+    <Content Include="Resources\images\mHP P221.JPG" />
+    <Content Include="Resources\images\mHP S2231a.JPG" />
+    <Content Include="Resources\images\mHP Z27n monitor.JPG" />
+    <Content Include="Resources\images\mSAMSUNG 2043.JPG" />
+    <Content Include="Resources\images\mSAMSUNG 213T.JPG" />
+    <Content Include="Resources\images\mSAMSUNG 2234.JPG" />
+    <Content Include="Resources\images\mSAMSUNG 2243.JPG" />
+    <Content Include="Resources\images\mSAMSUNG 943b.JPG" />
+    <Content Include="Resources\images\mSAMSUNG T240.JPG" />
+    <Content Include="Resources\images\pcIR1133if.JPG" />
+    <Content Include="Resources\images\pcIR2016.JPG" />
+    <Content Include="Resources\images\pcIR2025I.JPG" />
+    <Content Include="Resources\images\pcIR2520.JPG" />
+    <Content Include="Resources\images\pcIR2525i.JPG" />
+    <Content Include="Resources\images\pcIR2870.JPG" />
+    <Content Include="Resources\images\pcIR3035.JPG" />
+    <Content Include="Resources\images\pcIR3300.JPG" />
+    <Content Include="Resources\images\pcIR400i.JPG" />
+    <Content Include="Resources\images\pcIRADVC250i.JPG" />
+    <Content Include="Resources\images\pcMF411dw.JPG" />
+    <Content Include="Resources\images\pcMF633Cdw.JPG" />
+    <Content Include="Resources\images\pCODEX EZ-1105.JPG" />
+    <Content Include="Resources\images\pEPSON DLQ-3500.JPG" />
+    <Content Include="Resources\images\pEPSON FX-2190.JPG" />
+    <Content Include="Resources\images\pEPSON FX-890.JPG" />
+    <Content Include="Resources\images\pEPSON LQ-300+2.JPG" />
+    <Content Include="Resources\images\pEPSON LQ-570+.JPG" />
+    <Content Include="Resources\images\pHP 1000.JPG" />
+    <Content Include="Resources\images\pHP 1009.JPG" />
+    <Content Include="Resources\images\pHP 1200.JPG" />
+    <Content Include="Resources\images\pHP 1215.JPG" />
+    <Content Include="Resources\images\pHP 1300.JPG" />
+    <Content Include="Resources\images\pHP 1320.jpg" />
+    <Content Include="Resources\images\pHP 1505.JPG" />
+    <Content Include="Resources\images\pHP 2055dn.JPG" />
+    <Content Include="Resources\images\pHP 2300n.JPG" />
+    <Content Include="Resources\images\pHP 3015.JPG" />
+    <Content Include="Resources\images\pHP 3525dn.JPG" />
+    <Content Include="Resources\images\pHP 4015x.JPG" />
+    <Content Include="Resources\images\pHP 4250.JPG" />
+    <Content Include="Resources\images\pHP 5550hdn.JPG" />
+    <Content Include="Resources\images\pHP 6015xh.JPG" />
+    <Content Include="Resources\images\pHP Color M750.JPG" />
+    <Content Include="Resources\images\pHP Designjet T1200.JPG" />
+    <Content Include="Resources\images\pHP M552.JPG" />
+    <Content Include="Resources\images\pHP OJ 4500.JPG" />
+    <Content Include="Resources\images\pHP OJ 6000.JPG" />
+    <Content Include="Resources\images\pHP Pro 400 M401dn.JPG" />
+    <Content Include="Resources\images\pHP Pro M402dn.JPG" />
+    <Content Include="Resources\images\pZEBRA Z4M.JPG" />
+    <Content Include="Resources\images\rELO POS.JPG" />
+    <Content Include="Resources\images\rHP 7900 CMT.JPG" />
+    <Content Include="Resources\images\rHP 7900 SFF.JPG" />
+    <Content Include="Resources\images\rHP 7900 USD.JPG" />
+    <Content Include="Resources\images\rHP 8000 CMT.JPG" />
+    <Content Include="Resources\images\rHP 8000 USD.JPG" />
+    <Content Include="Resources\images\rHP 8200 CMT.JPG" />
+    <Content Include="Resources\images\rHP 8200 USD.JPG" />
+    <Content Include="Resources\images\rHP 8300 USD.JPG" />
+    <Content Include="Resources\images\rHP EliteDesk 800.JPG" />
+    <Content Include="Resources\images\rHP EliteOne 800.JPG" />
+    <Content Include="Resources\images\rHP ElteBang&amp;Olufsen.jpg" />
+    <Content Include="Resources\images\rHP Z230 Tower WS.JPG" />
+    <Content Include="Resources\images\rHP Z800 Workstation.JPG" />
+    <Content Include="Resources\images\sCANON DR-5010C.JPG" />
+    <Content Include="Resources\images\sCANON DR-C120.JPG" />
+    <Content Include="Resources\images\sCANON DR-C125.JPG" />
+    <Content Include="Resources\images\sCANON DR-C225.JPG" />
+    <Content Include="Resources\images\sCANON LIDE 110.JPG" />
+    <Content Include="Resources\images\sCANON SF 300p.JPG" />
+    <Content Include="Resources\images\sFUJITSU Fi-5220c.JPG" />
+    <Content Include="Resources\images\sHP OJ 4500.JPG" />
+    <Content Include="Resources\images\sHP OJ 6000.JPG" />
+    <Content Include="Resources\images\sHP SJ G2410.JPG" />
+    <Content Include="Resources\images\sHP SJ G3110.JPG" />
+    <Content Include="Resources\images\sHP SJ G4010.JPG" />
+    <Content Include="Resources\images\sPANAS. KV-S1025C.JPG" />
+    <Content Include="Resources\images\tASUS T100H.JPG" />
+    <Content Include="Resources\images\tHP Elite x2 1012G2.JPG" />
+    <Content Include="Resources\images\tHP x2 210G2.JPG" />
+    <Content Include="Resources\images\wCatalist 2960-X.JPG" />
+    <Content Include="Resources\images\wCatalist 2960.JPG" />
+    <Content Include="Resources\images\wDES-1005D.JPG" />
+    <Content Include="Resources\images\wDGS-1005D.JPG" />
+    <Content Include="Resources\images\wFSW-0511.JPG" />
+    <Content Include="Resources\images\wGS605.JPG" />
+    <Content Include="Resources\images\wGSW-0507.JPG" />
+    <Content Include="Untitled-2.ico" />
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

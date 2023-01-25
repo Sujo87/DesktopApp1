@@ -1,0 +1,48 @@
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\Inventura.mdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe.config
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.pdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csprojAssemblyReference.cache
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.FormInventura.resources
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.Properties.Resources.resources
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.GenerateResource.cache
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.CoreCompileInputs.cache
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.exe
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.pdb
+C:\Users\sasucic\source\repos\cistInv\DesktopApp1\bin\Debug\Inventura.accdb
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\bin\Debug\Inventura.accdb
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\bin\Debug\Inventura.mdb
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe.config
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\bin\Debug\DesktopApp1.pdb
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csprojAssemblyReference.cache
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.FormInventura.resources
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.Properties.Resources.resources
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.GenerateResource.cache
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.CoreCompileInputs.cache
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.exe
+C:\Users\Sandro\Desktop\repos\cistInv\DesktopApp1\obj\Debug\DesktopApp1.pdb
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\bin\Debug\Inventura.accdb
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\bin\Debug\Inventura.mdb
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe.config
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\bin\Debug\DesktopApp1.pdb
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csprojAssemblyReference.cache
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.FormInventura.resources
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.Properties.Resources.resources
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.GenerateResource.cache
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.CoreCompileInputs.cache
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.exe
+C:\Users\sasucic\source\reposDOMA\cistInv\DesktopApp1\obj\Debug\DesktopApp1.pdb
+E:\repos 20.3\cistInv\DesktopApp1\bin\Debug\Inventura.accdb
+E:\repos 20.3\cistInv\DesktopApp1\bin\Debug\Inventura.mdb
+E:\repos 20.3\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe.config
+E:\repos 20.3\cistInv\DesktopApp1\bin\Debug\DesktopApp1.exe
+E:\repos 20.3\cistInv\DesktopApp1\bin\Debug\DesktopApp1.pdb
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csprojAssemblyReference.cache
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.FormInventura.resources
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.Properties.Resources.resources
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.GenerateResource.cache
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.csproj.CoreCompileInputs.cache
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.exe
+E:\repos 20.3\cistInv\DesktopApp1\obj\Debug\DesktopApp1.pdb
